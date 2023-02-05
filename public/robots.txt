@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /img/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://omocoder.github.io/omorashi-stories/sitemap.xml

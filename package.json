@@ -1,0 +1,51 @@
+{
+  "name": "omorashi-stories",
+  "version": "0.5.0",
+  "description": "Website with omorashi stories",
+  "tags": [
+    "react",
+    "nextjs",
+    "static generation"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "lint": "next lint",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "next build && next export && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "fecha": "^4.2.3",
+    "glob": "^8.1.0",
+    "gray-matter": "^4.0.3",
+    "next": "13.1.6",
+    "raw-loader": "^4.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-raw": "6.1.1",
+    "rehype-sanitize": "5.0.1",
+    "remark-gfm": "3.0.1",
+    "rss": "^1.2.2",
+    "showdown": "^2.1.0",
+    "webpack": "5.75.0"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.1",
+    "@types/node": "18.11.19",
+    "@types/react": "^18.0.27",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "@types/rss": "^0.0.30",
+    "@types/showdown": "^2.0.0",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "favicons": "^7.0.2",
+    "prettier": "2.8.3",
+    "typescript": "^4.9.5"
+  }
+}
